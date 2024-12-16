@@ -1,0 +1,10 @@
+---
+title: Solving for quadratic equations using a casio calculator
+date: 12/14/2024
+categories: 
+    - sveltekit
+    - svelte
+published: true
+---
+
+# { title }

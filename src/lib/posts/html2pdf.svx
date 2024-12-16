@@ -1,0 +1,11 @@
+---
+title: Working with html2pdf.js in sveltekit
+date: 12/14/2024
+categories: 
+    - sveltekit
+    - svelte
+    - html2pdf.js
+published: true
+---
+
+# { title }
