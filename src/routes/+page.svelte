@@ -41,7 +41,7 @@
 				target="_blank">GitHub</a
 			>, explore my
 			<a
-				class="text-white/80"
+				class="text-muted-foreground/60 dark:text-white/80"
 				href="https://www.linkedin.com/in/clifford-njoroge-7ab4181b6/"
 				target="_blank">Linkedin</a
 			>

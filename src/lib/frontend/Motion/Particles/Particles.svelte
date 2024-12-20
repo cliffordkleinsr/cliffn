@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { mode } from 'mode-watcher';
+
 	interface Props {
 		className?: string;
 		quantity?: number;
@@ -213,6 +215,8 @@
 	//   Building Stage
 </script>
 
-<div class={className} bind:this={canvasContainerRef} aria-hidden="true">
-	<canvas bind:this={canvasRef} class="size-full"></canvas>
-</div>
+{#if $mode === 'dark'}
+	<div class={className} bind:this={canvasContainerRef} aria-hidden="true">
+		<canvas bind:this={canvasRef} class="size-full"></canvas>
+	</div>
+{/if}

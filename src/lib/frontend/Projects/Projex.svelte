@@ -129,7 +129,7 @@
 	];
 </script>
 
-<div class="max-w-xl">
+<div class="max-w-xl" id="projects">
 	<h1
 		class="bg-gradient-to-b from-blue-300 to-zinc-500 bg-clip-text py-5 text-2xl text-transparent"
 	>

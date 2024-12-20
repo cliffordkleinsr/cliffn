@@ -19,6 +19,9 @@
 </script>
 
 <ModeWatcher />
-<Navbar />
+
 <Particles className="absolute inset-0 -z-10" />
-{@render children()}
+<div class="noise">
+	<Navbar />
+	{@render children()}
+</div>

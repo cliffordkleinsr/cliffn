@@ -8,7 +8,7 @@
 		{ id: 'about', name: 'About', href: '/' },
 		{ id: 'blog', name: 'Blog', href: '/blog' },
 		{ id: 'projects', name: 'Projects', href: '/#projects' },
-		{ id: 'arts', name: 'Arts' }
+		{ id: 'Lab', name: 'lab' }
 	];
 
 	let activeTabIndex = $state(0) as number;
@@ -21,7 +21,7 @@
 
 <div class="flex">
 	<div
-		class="flew-row relative m-2 mx-auto flex h-14 rounded-lg border border-black/40 bg-neutral-800 px-2 backdrop-blur-sm"
+		class="flew-row relative m-2 mx-auto flex h-14 rounded-lg border border-black/40 bg-neutral-500 px-2 backdrop-blur-sm dark:bg-neutral-800"
 	>
 		<span
 			class="absolute bottom-0 top-0 -z-10 flex overflow-hidden rounded-3xl py-2 transition-all duration-300"
