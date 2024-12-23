@@ -8,7 +8,7 @@
 		{ id: 'about', name: 'About', href: '/' },
 		{ id: 'blog', name: 'Blog', href: '/blog' },
 		{ id: 'projects', name: 'Projects', href: '/#projects' },
-		{ id: 'Lab', name: 'lab' }
+		{ id: 'Lab', name: 'lab', href: '/lab' }
 	];
 
 	let activeTabIndex = $state(0) as number;
