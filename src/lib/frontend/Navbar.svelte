@@ -1,7 +1,9 @@
 <script lang="ts">
 	import Modetoggle from '$lib/components/Modetoggle.svelte';
 	import { Button } from '$lib/components/ui/button';
-	import Search from '$lib/icons/search.svelte';
+	// import Search from '$lib/icons/search.svelte';
+
+	import Search from 'lucide-svelte/icons/search';
 	import { page } from '$app/state';
 
 	const allTabs = [

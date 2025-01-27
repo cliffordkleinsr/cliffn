@@ -4,7 +4,7 @@
 		size = 28,
 		strokeWidth = 2,
 		isHovered = false,
-		classes = ''
+		class: className = ''
 	} = $props();
 	function handleMouseEnter() {
 		isHovered = true;
@@ -27,7 +27,7 @@
 </script>
 
 <div
-	class={classes}
+	class={className}
 	aria-label="sun"
 	role="img"
 	onmouseenter={handleMouseEnter}

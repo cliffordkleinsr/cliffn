@@ -20,7 +20,7 @@
 
 <ModeWatcher />
 
-<Particles className="absolute inset-0 -z-10" />
+<!-- <Particles className="absolute inset-0 -z-10" /> -->
 <div class="noise">
 	<Navbar />
 	{@render children()}
