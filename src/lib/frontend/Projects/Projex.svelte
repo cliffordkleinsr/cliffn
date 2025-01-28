@@ -129,7 +129,7 @@
 	];
 </script>
 
-<div class="max-w-xl" id="projects">
+<div class="z-10 max-w-xl" id="projects">
 	<h1
 		class="bg-gradient-to-b from-blue-300 to-zinc-500 bg-clip-text py-5 text-2xl text-transparent"
 	>
@@ -139,7 +139,7 @@
 		I&apos;ve worked on a variety of projects, from machine learning algorithms to complex web
 		applications. Here are a few of my favorites.
 	</p>
-	<div class="grid grid-cols-2 gap-2 py-11">
+	<div class="grid gap-2 py-11 md:grid-cols-2">
 		{#each projects as project}
 			<ProjectCard
 				href={project.href}

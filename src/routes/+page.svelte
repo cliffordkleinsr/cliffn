@@ -25,6 +25,7 @@
 	</div>
 	<Index />
 	<Projex />
+
 	<div class="grid max-w-xl gap-2 py-5">
 		<h1 class="bg-gradient-to-b from-blue-300 to-zinc-500 bg-clip-text text-2xl text-transparent">
 			Connect

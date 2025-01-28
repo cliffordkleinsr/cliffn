@@ -10,9 +10,14 @@
 
 	$effect(() => {
 		// Initialize Lenis
-		const lenis = new Lenis({
-			autoRaf: true
-		});
+		const lenis = new Lenis();
+		// Use requestAnimationFrame to continuously update the scroll
+		function raf(time: number) {
+			lenis.raf(time);
+			requestAnimationFrame(raf);
+		}
+
+		requestAnimationFrame(raf);
 	});
 
 	let { children } = $props();
